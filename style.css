@@ -1,0 +1,86 @@
+body, html {
+    background-color: #7cbbbb;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {border-style: none none solid none;}
+ul {border-color: #d1d0d0;}
+
+.menu {
+    background-color: #ECE2E1;
+    margin: 0;
+    padding-left: 0; /* ul elementy maju same od seba lavy padding, zrusime */
+    list-style: none; /* toto zrusi tie bodky v zoznamoch */
+    text-align: center;
+}
+
+.menu li,
+.menu a {
+    display: inline-block; /* aby boli vedla seba */
+}
+  
+.menu a {
+    margin: 0 5px;
+    padding: 15px;
+}
+
+a {
+    font-size: 20px;
+}
+
+li a {
+    color: #313131;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FD685B;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ECE2E1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/*span {
+    color: #2E54FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+main {
+    text-align: center;
+}
+
+p {
+    color: #ECE2E1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FD685B;
+    color: #ECE2E1;
+    border-radius: 14px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 60px;
+    
+}
+
+#button {
+    font-size: 22px;
+}
+
+.button:hover {
+    background-color: #2E54FF;
+}
